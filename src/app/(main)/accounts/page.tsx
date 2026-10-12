@@ -1,4 +1,4 @@
-export function AccountsPage() {
+export default function AccountsPage() {
   return (
     <div>
       <h1 className="text-lg font-bold">계좌</h1>

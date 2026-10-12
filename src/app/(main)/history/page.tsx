@@ -1,4 +1,4 @@
-export function HistoryPage() {
+export default function HistoryPage() {
   return (
     <div>
       <h1 className="text-lg font-bold">월별 기록</h1>

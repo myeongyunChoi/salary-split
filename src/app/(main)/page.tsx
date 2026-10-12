@@ -1,4 +1,5 @@
-export function MonthPage() {
+// TODO: '/' 로 들어오면 이번 달(/m/YYYY-MM)로 보내기
+export default function MonthPage() {
   return (
     <div>
       <h1 className="text-lg font-bold">이번 달</h1>
