@@ -11,6 +11,8 @@
     "typecheck": "next typegen && tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
+    "db:ping": "node --env-file=.env.local scripts/db-ping.ts",
+    "db:migrate": "node --env-file=.env.local scripts/db-migrate.ts",
     "check": "npm run typecheck && npm run lint && npm run test"
   },
   "dependencies": {
